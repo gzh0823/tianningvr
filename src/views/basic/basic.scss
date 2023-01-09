@@ -1,0 +1,118 @@
+.basic {
+  .anchorBL {
+    display: none;
+  }
+
+  .basic-content-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    bottom: 0;
+    z-index: 9;
+    padding: 100px 20px 0 0;
+  }
+  .basic-content-right{
+    position: fixed;
+    right: 0;
+    width: 150px;
+    bottom: 0;
+    z-index: 9;
+  }
+  .basic-part {
+    width: 400px;
+    height: 795px;
+    background: rgba(7, 24, 39, 0.8);
+    border: 1px solid rgba(0, 106, 177, 0.6);
+    border-radius: 0 6px 6px 0;
+
+    .basic-title {
+      height: 42px;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: 0;
+      font-weight: 500;
+      line-height: 42px;
+      padding-left: 60px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+
+    .title1 {
+      background: url("../../assets/basic/basic-title-1.png") no-repeat;
+    }
+    .basic-cost {
+      border: 1px solid rgba(206, 197, 171, 0.3);
+      border-radius: 4px;
+      margin: 20px;
+      .cost-title1 {
+        background: rgba(130, 176, 255, 0.3);
+        border: 1px solid rgba(130, 176, 255, 1);
+        box-shadow: inset 0px 0px 20px 0px rgba(140, 161, 197, 1);
+        border-radius: 4px 4px 0px 0px;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 10px;
+      }
+      .cost-title2{
+        background: rgba(255,173,132,0.30);
+        border: 1px solid rgba(255,173,132,1);
+        box-shadow: inset 0px 0px 20px 0px rgba(222,130,84,1);
+        border-radius: 4px 4px 0px 0px;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 10px;
+      }
+      .cost-title3{
+        background: rgba(142,246,255,0.30);
+        border: 1px solid rgba(142,246,255,1);
+        box-shadow: inset 0px 0px 20px 0px rgba(141,208,214,1);
+        border-radius: 4px 4px 0px 0px;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 10px;
+      }
+      p {
+        justify-content: space-between;
+        font-size: 16px;
+        color: #c1dfff;
+        letter-spacing: 0;
+        line-height: 40px;
+        font-weight: 400;
+        padding: 0 10px;
+        &:nth-child(odd) {
+          background: rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+
+    .basic-img {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 20px;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .basic-right {
+    align-self: flex-end;
+    margin-bottom: 150px;
+
+    div {
+      cursor: pointer;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+      width: 133px;
+      height: 43px;
+      line-height: 48px;
+      text-align: center;
+      background: url("../../assets/basic/basic-right-bg.png") no-repeat;
+    }
+  }
+}

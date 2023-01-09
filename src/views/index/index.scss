@@ -1,0 +1,127 @@
+.index-bg {
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/index/index-bg.png') no-repeat;
+    color: white;
+
+    .index-content {
+        padding: 100px 20px 0;
+        justify-content: space-between;
+    }
+
+    .index-center {
+        position: relative;
+    }
+
+    .index-bottom {
+        z-index:9;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 140px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 400;
+        background: url('../../assets/index/index-bottom-bg.png') no-repeat;
+
+        div {
+            width: 133px;
+            height: 42px;
+            line-height: 48px;
+            background: url('../../assets/index/label-bg.png') no-repeat;
+            cursor: pointer;
+        }
+    }
+
+    .index-part {
+        width: 400px;
+        height: 888px;
+        background: rgba(7, 24, 39, 0.80);
+        border: 1px solid rgba(0, 106, 177, 0.6);
+        border-radius: 6px;
+
+        .index-title {
+            height: 42px;
+            font-size: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            font-weight: 500;
+            line-height: 42px;
+            padding-left: 60px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        .title1 {
+            background: url('../../assets/index/index-title-1.png') no-repeat;
+        }
+
+        .title2 {
+            margin-top: 50px;
+            background: url('../../assets/index/index-title-2.png') no-repeat;
+        }
+
+        .title3 {
+            background: url('../../assets/index/index-title-3.png') no-repeat;
+        }
+
+        .title4 {
+            margin-top: 50px;
+            background: url('../../assets/index/index-title-4.png') no-repeat;
+        }
+
+        p {
+            font-size: 18px;
+            color: #C1DFFF;
+            letter-spacing: 0;
+            text-align: justify;
+            line-height: 30px;
+            font-weight: 400;
+            padding: 25px 30px;
+        }
+    }
+    .industry-bg{
+        background:url('../../assets/index/circle.png') 100% no-repeat;
+        background-size: contain;
+        width: 215px;
+        height:115px;
+        margin:-160px auto 0
+    }
+    .advantage-bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+
+        .advantage-dialog {
+            width: 1000px;
+            height: 755px;
+            border: 1px solid rgba(1, 119, 199, 1);
+            border-radius: 4px;
+
+            .advantage-title {
+                height: 50px;
+                font-size: 18px;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 15px;
+                box-sizing: border-box;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                font-weight: 600;
+                background: url('../../assets/index/advantage-title.png');
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
